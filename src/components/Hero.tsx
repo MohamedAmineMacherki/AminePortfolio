@@ -11,7 +11,9 @@ export const Hero: React.FC<HeroProps> = ({ darkMode }) => {
   const { t } = useLanguage();
 
   const handleEmailClick = () => {
-    window.location.href = 'mailto:mohamedamine.macherki@ieee.org';
+    const subject = encodeURIComponent('Contact from Portfolio');
+    const body = encodeURIComponent('Hello Mohamed Amine,\n\nI found your portfolio and would like to get in touch.\n\nBest regards,');
+    window.location.href = `mailto:mohamedamine.macherki@ieee.org?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -28,7 +30,7 @@ export const Hero: React.FC<HeroProps> = ({ darkMode }) => {
                     <div className="relative">
                       <div className=" rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
                         <img
-                            src="/public/Amine profile picture.png"
+                            src="/Amine-profile-picture.png"
                             alt="Mohamed Amine Macherki"
                             className="w-full h-full object-cover"
                         />
