@@ -56,7 +56,7 @@ export const About: React.FC<AboutProps> = ({ darkMode }) => {
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-orange-600 flex items-center justify-center">
                   <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                     <img
-                        src="src/assets/study/inov day.jpeg"
+                        src="../../public/study/inov day.jpeg"
                         alt="Mohamed Amine Macherki"
                         className="w-full h-[500px] object-cover"
                     />

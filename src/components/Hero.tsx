@@ -1,7 +1,7 @@
 import React from 'react';
 import { Download, Mail, MapPin, Github, Linkedin } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
-import CVFile from '../assets/CV-MOHAMED-Amine - Macherki-2025.pdf';
+import CVFile from '../../public/CV-MOHAMED-Amine - Macherki-2025.pdf';
 
 interface HeroProps {
   darkMode: boolean;
@@ -28,7 +28,7 @@ export const Hero: React.FC<HeroProps> = ({ darkMode }) => {
                     <div className="relative">
                       <div className=" rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
                         <img
-                            src="/src/assets/Amine profile picture.png"
+                            src="/public/Amine profile picture.png"
                             alt="Mohamed Amine Macherki"
                             className="w-full h-full object-cover"
                         />
