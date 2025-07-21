@@ -1,9 +1,7 @@
 import React from 'react';
 import { ExternalLink, Download } from 'lucide-react';
-import { useLanguage } from '../hooks/useLanguage';
 
 const Certifications: React.FC = () => {
-    const { t } = useLanguage();
 
     const certifications = [
         {
@@ -64,7 +62,7 @@ const Certifications: React.FC = () => {
         <section id="achievements" className="py-20 bg-white">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-gray-800 mb-4">{t.achievements.title}</h2>
+                    <h2 className="text-4xl font-bold text-gray-800 mb-4">Achievements & Certifications</h2>
                     <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
                 </div>
 
