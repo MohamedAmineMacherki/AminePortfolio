@@ -99,7 +99,7 @@ export const projects: Project[] = [
     title: "Application MetaSports Mixed Reality",
     description: "Application multijoueur en réalité mixte pour le sport",
     technologies: ["Unity", "HoloLens 2", "C#", "Azure", "Mixed Reality Toolkit"],
-    image: "/src/assets/WhatsApp Image 2025-04-27 at 9.29.51 PM.jpeg",
+    image: "/src/assets/WhatsApp.jpeg",
     situation: "Demande croissante d'expériences sportives immersives",
     task: "Développer une application MR multijoueur pour HoloLens 2",
     action: "Implémentation tracking 3D, optimisation performances, intégration IA",

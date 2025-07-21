@@ -121,7 +121,7 @@ export const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
     {
       title: "VR Medical Education Platform",
       description: "An innovative solution combining VR, smart contracts, and Rental NFTs with an AI virtual professor using NLP and ML for medical education in the Metaverse.",
-      image: "public/VR.jpeg",
+      image: "/VR.jpeg",
       technologies: ["Unity", "Oculus Quest", "Blockchain", "AI/ML", "NLP"],
       category: "Innovation",
       icon: <Brain className="w-6 h-6" />,

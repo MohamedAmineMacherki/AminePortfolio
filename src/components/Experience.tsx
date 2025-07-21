@@ -28,8 +28,8 @@ export const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
         "Spring Boot", "React", "Microfrontends", "Microservices", "Keycloak",
         "Kafka", "S3", "JUnit", "Mockito", "TDD", "OpenShift", "Kubernetes", "Docker"
       ],
-      image: "/public/logo/sofrecom-logo.png",
-      experienceImage: "/public/work/Disco.jpeg",
+      image: "/logo/sofrecom-logo.png",
+      experienceImage: "/work/Disco.jpeg",
       link: "https://sofrecom.com"
     }
   ];
@@ -49,8 +49,8 @@ export const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
         "Virtual Reality", "Blockchain", "AI", "Machine Learning", "NLP",
         "Smart Contracts", "NFT", "Unity", "Oculus Quest 2", "Solidity", "Ganache", "Blender"
       ],
-      image: "/public/logo/sofrecom-logo.png",
-      experienceImage: "/public/work/pfe.jpg",
+      image: "/logo/sofrecom-logo.png",
+      experienceImage: "/work/pfe.jpg",
       link: "https://sofrecom.com"
     },
     {
@@ -67,8 +67,8 @@ export const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
         "Mixed Reality", "AI", "Machine Learning", "Unity", "HoloLens 2",
         "Photon", "C#", "MRTK", "Azure"
       ],
-      image: "/public/logo/talan-logo.png",
-      experienceImage: "/public/work/TALAN.jpg",
+      image: "/logo/talan-logo.png",
+      experienceImage: "/work/TALAN.jpg",
       link: "https://talan.com"
     },
     {
@@ -84,7 +84,7 @@ export const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
         "React", "JavaScript", "Big Data", "Apache Kafka", "Elasticsearch",
         "D3.js", "Node.js", "MongoDB", "REST APIs"
       ],
-      image: "/public/logo/consultim-logo.png",
+      image: "/logo/consultim-logo.png",
       link: "https://consultim-it.com"
     },
     {
@@ -102,7 +102,7 @@ export const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
         "React.js", "Java 17", "Spring Boot", "MySQL", "REST APIs",
         "JavaScript", "HTML5", "CSS3", "Bootstrap"
       ],
-      image: "/public/logo/allnet-logo.png",
+      image: "/logo/allnet-logo.png",
       link: "https://allnet.de"
     },
     {
@@ -120,7 +120,7 @@ export const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
         "Telecommunications", "Fiber Optic", "RF Technologies", "Network Management",
         "Quality Control", "Mobile Networks", "Energy Systems"
       ],
-      image: "/public/logo/tunisie-telecom-logo.png",
+      image: "/logo/tunisie-telecom-logo.png",
       link: "https://www.tunisietelecom.tn"
     }
   ];

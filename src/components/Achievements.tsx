@@ -49,10 +49,10 @@ export const Achievements: React.FC<AchievementsProps> = ({ darkMode }) => {
       category: "International Competition",
       year: "2021",
       photos: [
-        { url: "public/study/nasa.jpeg", caption: "NASA award ceremony" },
+        { url: "/study/nasa.jpeg", caption: "NASA award ceremony" },
         { url: "https://images.unsplash.com/photo-1517976487492-5750f3195933?w=500&h=400&fit=crop&crop=entropy&cs=tinysrgb", caption: "Project presentation to jury" },
         { url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&h=400&fit=crop&crop=entropy&cs=tinysrgb", caption: "Winning team with trophy" },
-        { url: "public/study/nasa2.jpeg", caption: "Team celebration" }
+        { url: "/study/nasa2.jpeg", caption: "Team celebration" }
       ]
     },
     {
@@ -64,14 +64,14 @@ export const Achievements: React.FC<AchievementsProps> = ({ darkMode }) => {
       category: "National Competition",
       year: "2022",
       photos: [
-        { url: "public/Pyora/1.jpeg", caption: "Project pitch presentation" },
-        { url: "public/Pyora/2.jpeg", caption: "Technical demonstration" },
-        { url: "public/Pyora/3.jpeg", caption: "Innovation award ceremony" },
-        { url: "public/Pyora/4.jpeg", caption: "Team presentation" },
-        { url: "public/Pyora/5.jpeg", caption: "Product demo" },
-        { url: "public/Pyora/6.jpeg", caption: "Award reception" },
-        { url: "public/Pyora/7.jpeg", caption: "Final presentation" },
-        { url: "public/Pyora/8.jpeg", caption: "Technical showcase" }
+        { url: "/Pyora/1.jpeg", caption: "Project pitch presentation" },
+        { url: "/Pyora/2.jpeg", caption: "Technical demonstration" },
+        { url: "/Pyora/3.jpeg", caption: "Innovation award ceremony" },
+        { url: "/Pyora/4.jpeg", caption: "Team presentation" },
+        { url: "/Pyora/5.jpeg", caption: "Product demo" },
+        { url: "/Pyora/6.jpeg", caption: "Award reception" },
+        { url: "/Pyora/7.jpeg", caption: "Final presentation" },
+        { url: "/Pyora/8.jpeg", caption: "Technical showcase" }
       ]
     }
   ], []);
@@ -85,19 +85,19 @@ export const Achievements: React.FC<AchievementsProps> = ({ darkMode }) => {
       color: "from-green-500 to-green-600",
       category: "Entrepreneurship",
       year: "2020-2023",
-      logo: "public/logo/ejce.png",
+      logo: "/logo/ejce.png",
       website: "https://jet.optimajuniorentreprise.com/en/enetcom-junior-entreprise/",
       photos: [
-        { url: "public/junior/1.jpg", caption: "Junior Enterprise launch event" },
-        { url: "public/junior/2.jpg", caption: "Entrepreneurship workshop" },
-        { url: "public/junior/3.jpg", caption: "Digital marketing training" },
-        { url: "public/junior/4.jpg", caption: "Marketing team meeting" },
-        { url: "public/junior/5.jpg", caption: "Team collaboration session" },
-        { url: "public/junior/6.jpg", caption: "Strategic planning meeting" },
-        { url: "public/junior/7.jpg", caption: "Project development" },
-        { url: "public/junior/8.jpg", caption: "Team building activity" },
-        { url: "public/junior/9.png", caption: "Organization meeting" },
-        { url: "public/junior/10.png", caption: "Team coordination" }
+        { url: "/junior/1.jpg", caption: "Junior Enterprise launch event" },
+        { url: "/junior/2.jpg", caption: "Entrepreneurship workshop" },
+        { url: "/junior/3.jpg", caption: "Digital marketing training" },
+        { url: "/junior/4.jpg", caption: "Marketing team meeting" },
+        { url: "/junior/5.jpg", caption: "Team collaboration session" },
+        { url: "/junior/6.jpg", caption: "Strategic planning meeting" },
+        { url: "/junior/7.jpg", caption: "Project development" },
+        { url: "/junior/8.jpg", caption: "Team building activity" },
+        { url: "/junior/9.png", caption: "Organization meeting" },
+        { url: "/junior/10.png", caption: "Team coordination" }
       ]
     },
     {
@@ -108,13 +108,13 @@ export const Achievements: React.FC<AchievementsProps> = ({ darkMode }) => {
       color: "from-indigo-500 to-indigo-600",
       category: "Leadership",
       year: "2020-2021",
-      logo: "public/logo/ieee.png",
+      logo: "/logo/ieee.png",
       website: "https://enetcom.ieee.tn/",
       photos: [
-        { url: "public/ieee/1.jpg", caption: "IEEE technology innovation conference" },
-        { url: "public/ieee/2.png", caption: "Technical training workshop" },
-        { url: "public/ieee/3.jpg", caption: "IEEE robotics competition" },
-        { url: "public/ieee/6.jpg", caption: "Awards ceremony" }
+        { url: "/ieee/1.jpg", caption: "IEEE technology innovation conference" },
+        { url: "/ieee/2.png", caption: "Technical training workshop" },
+        { url: "/ieee/3.jpg", caption: "IEEE robotics competition" },
+        { url: "/ieee/6.jpg", caption: "Awards ceremony" }
       ]
     },
     {
@@ -127,7 +127,7 @@ export const Achievements: React.FC<AchievementsProps> = ({ darkMode }) => {
       year: "2020-2023",
       photos: [
         { url: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=500&h=400&fit=crop&crop=entropy&cs=tinysrgb", caption: "Tech event organization" },
-        { url: "public/ieee/4.png", caption: "Ambassador event" }
+        { url: "/ieee/4.png", caption: "Ambassador event" }
       ]
     }
   ], []);
@@ -144,11 +144,11 @@ export const Achievements: React.FC<AchievementsProps> = ({ darkMode }) => {
       location: "Djerba, Tunisia",
       distance: "10 km",
       photos: [
-        { url: "public/Djerba/1.jpeg", caption: "Marathon start with Team Sofrecom" },
-        { url: "public/Djerba/2.jpeg", caption: "Running with the team" },
-        { url: "public/Djerba/5.png", caption: "Finish line celebration" },
-        { url: "public/Djerba/3.jpeg", caption: "Team Sofrecom group photo" },
-        { url: "public/Djerba/6.png", caption: "Medal ceremony" }
+        { url: "/Djerba/1.jpeg", caption: "Marathon start with Team Sofrecom" },
+        { url: "/Djerba/2.jpeg", caption: "Running with the team" },
+        { url: "/Djerba/5.png", caption: "Finish line celebration" },
+        { url: "/Djerba/3.jpeg", caption: "Team Sofrecom group photo" },
+        { url: "/Djerba/6.png", caption: "Medal ceremony" }
       ]
     },
     {
@@ -162,12 +162,12 @@ export const Achievements: React.FC<AchievementsProps> = ({ darkMode }) => {
       location: "Tunisia",
       distance: "5 km",
       photos: [
-        { url: "public/VAGA/1.jpg", caption: "Pre-race preparation" },
-        { url: "public/VAGA/2.jpg", caption: "Race action" },
-        { url: "public/VAGA/3.jpeg", caption: "Complete Team Sofrecom" },
-        { url: "public/VAGA/5.jpg", caption: "Recovery moment" },
-        { url: "public/VAGA/4.jpg", caption: "Post-race celebration" },
-        { url: "public/VAGA/6.jpeg", caption: "Team achievement" }
+        { url: "/VAGA/1.jpg", caption: "Pre-race preparation" },
+        { url: "/VAGA/2.jpg", caption: "Race action" },
+        { url: "/VAGA/3.jpeg", caption: "Complete Team Sofrecom" },
+        { url: "/VAGA/5.jpg", caption: "Recovery moment" },
+        { url: "/VAGA/4.jpg", caption: "Post-race celebration" },
+        { url: "/VAGA/6.jpeg", caption: "Team achievement" }
       ]
     },
     {
@@ -181,12 +181,12 @@ export const Achievements: React.FC<AchievementsProps> = ({ darkMode }) => {
       location: "Mahdia, Tunisia",
       distance: "16 km",
       photos: [
-        { url: "public/Mahdia/5.png", caption: "Early morning start" },
-        { url: "public/Mahdia/2.png", caption: "Coastal route running" },
-        { url: "public/Mahdia/1.jpg", caption: "Motivated Team Sofrecom" },
-        { url: "public/Mahdia/3.png", caption: "Beautiful coastal scenery" },
-        { url: "public/Mahdia/5.png", caption: "Finish line arrival" },
-        { url: "public/marathon/mahdia6.jpg", caption: "Team memory photo" }
+        { url: "/Mahdia/5.png", caption: "Early morning start" },
+        { url: "/Mahdia/2.png", caption: "Coastal route running" },
+        { url: "/Mahdia/1.jpg", caption: "Motivated Team Sofrecom" },
+        { url: "/Mahdia/3.png", caption: "Beautiful coastal scenery" },
+        { url: "/Mahdia/5.png", caption: "Finish line arrival" },
+        { url: "/marathon/mahdia6.jpg", caption: "Team memory photo" }
       ]
     }
   ], []);

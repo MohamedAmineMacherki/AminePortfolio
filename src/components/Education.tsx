@@ -19,8 +19,8 @@ export const Education: React.FC<EducationProps> = ({ darkMode }) => {
       mention: "Very Good Distinction",
       description: "Engineering training specialized in telecommunications and computer systems with a focus on technological innovation and applied research.",
       color: "from-blue-600 to-blue-700",
-      logo: "public/logo/enetcomm.jpg",
-      photo: "public/study/graduation.jpg",
+      logo: "/logo/enetcomm.jpg",
+      photo: "/study/graduation.jpg",
       website: "https://enetcom.rnu.tn/fr",
       alt: "ENET'COM Campus"
     },
@@ -35,8 +35,8 @@ export const Education: React.FC<EducationProps> = ({ darkMode }) => {
       mention: "Good Distinction",
       description: "Preparatory classes for 'grandes écoles' of engineering with in-depth training in mathematics, physics, and fundamental sciences.",
       color: "from-orange-600 to-orange-700",
-      logo: "public/logo/logo ipeim.jpeg",
-      photo: "public/study/ipeim.jpeg",
+      logo: "/logo/logo-ipeim.jpeg",
+      photo: "/study/ipeim.jpeg",
       website: "https://ipeim.rnu.tn/",
       alt: "IPEIM Campus"
     },

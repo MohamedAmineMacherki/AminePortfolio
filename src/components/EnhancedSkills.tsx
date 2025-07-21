@@ -67,7 +67,7 @@ export const EnhancedSkills: React.FC<SkillsProps> = ({ darkMode = false }) => {
       flag: '🇺🇸',
       description: 'Fluent in technical documentation, presentations, and international collaboration',
       certification: 'EF SET Certificate',
-      certificateUrl: 'public/EF SET Certificate Mohamed Amine MACHERKI.pdf'
+      certificateUrl: '/EF-SET-Certificate-Mohamed-Amine-MACHERKI.pdf'
     },
     {
       language: 'German',
