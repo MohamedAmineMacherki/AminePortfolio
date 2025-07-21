@@ -44,7 +44,7 @@ const Certifications: React.FC = () => {
             issuer: "IPKEurope",
             date: "2023",
             credlyUrl: "https://www.linkedin.com/posts/mohamed-amine-macherki-b62a65200_communication-network-softskills-activity-6996743225692569600-5lnn?utm_source=share&utm_medium=member_desktop&rcm=ACoAADNqBjoBAWY6sTDqG2-00iv8Yko-My1j1y4",
-            pdfUrl: "src/assets/ECo-C-certif-mohamed-amine.pdf",
+            pdfUrl: "public/ECo-C-certif-mohamed-amine.pdf",
             icon: "🗪"
         }
     ];
