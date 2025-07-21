@@ -213,7 +213,7 @@ export const EnhancedSkills: React.FC<SkillsProps> = ({ darkMode = false }) => {
     {
       id: 'aws',
       name: 'AWS',
-      logo: 'public/logo/amazon-web-services.png',
+      logo: '/logo/amazon-web-services.png',
       category: 'Cloud & DevOps',
       level: 50,
       description: 'Amazon Web Services for cloud computing solutions.',
@@ -373,7 +373,7 @@ export const EnhancedSkills: React.FC<SkillsProps> = ({ darkMode = false }) => {
     {
       id: 'oculus',
       name: 'Oculus Quest 2',
-      logo: 'public/logo/oculus-quest-2-pro-price-release-date-spec-benchmarks-550x309.jpg',
+      logo: '/logo/oculus-quest-2-pro-price-release-date-spec-benchmarks-550x309.jpg',
       category: '3D & Mixed Reality',
       level: 58,
       description: 'VR headset platform for immersive application development.',
@@ -386,7 +386,7 @@ export const EnhancedSkills: React.FC<SkillsProps> = ({ darkMode = false }) => {
     },{
       id: 'HoloLens 2',
       name: 'HoloLens 2',
-      logo: 'public/logo/1476214999_microsoft-hololens-front-logo_story.jpg',
+      logo: '/logo/1476214999_microsoft-hololens-front-logo_story.jpg',
       category: '3D & Mixed Reality',
       level: 58,
       description: 'Microsoft unveils new augmented reality headset',
