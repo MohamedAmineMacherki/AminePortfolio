@@ -51,7 +51,7 @@ export const Education: React.FC<EducationProps> = ({ darkMode }) => {
       mention: "Very Good Distinction",
       description: "Secondary education focused on scientific disciplines with a specialization in mathematics and physics, developing strong foundations for engineering studies.",
       color: "from-blue-600 to-blue-700",
-      logo: "public/logo/lycé.jpeg",
+      logo: "/logo/lycé.jpeg",
       photo: "/study/lycee.jpg",
       website: "",
       alt: "Ksour Essef High School"

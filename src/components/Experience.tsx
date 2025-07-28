@@ -15,18 +15,26 @@ export const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
       period: "09/2023 – Present",
       location: "Tunis, Tunisia",
       description: [
-        "Front-end/back-end developer for the DISCO microservices and microfrontend project (DTW Innovation Award laureate)",
-        "Development of RESTful APIs using Java Spring Boot following TMF standards",
-        "Participation in the creation of administration and order management portals using React.js",
-        "Implementation of the first microfrontend using Webpack architecture",
-        "Contribution to deployment processes on Orange Cloud via OpenShift and Kafka integration",
-        "Collaboration with a distributed Agile team across 5 countries and time zones",
+        "Project: DISCO - Digital platform for core commerce orchestration (IPCEI)",
+        "Team Size: 50+ members across 4 countries",
+        "DISCO is a cutting-edge open-source digital platform focused on core commerce functionalities, developed as part of Important Projects of Common European Interest (IPCEI).",
+        "Front-end/back-end developer for the DISCO microservices and microfrontend project (IPCEI initiative)",
+        "Development of high-performance RESTful APIs using Java 17/Spring Boot following TMF Open APIs standards",
+        "Implementation of CQRS & Event Sourcing patterns with Axon Framework for 6-microservices architecture",
+        "Participation in microfrontend MVP development before full-scale implementation",
+        "API optimization achieving 86% performance improvement (response time from 3.6s to 0.5s)",
+        "Integration with Kafka streaming for microservices synchronization and data flow",
+        "Application of TDD/BDD methodologies using Bruno framework for comprehensive testing",
+        "Code quality assurance through SonarQube, Checkmarks Tool, and FindBugs validation",
+        "Collaboration with 50+ team members across 4 countries in distributed Agile environment",
+        "Active contribution to bug fixing, code reviews, and clean code practices implementation",
         "Documentation of developed features and onboarding materials for new team members",
-        "Active involvement in sprint reviews, demos, and technical discussions"
+        "Participation in sprint reviews, technical discussions, and pair programming sessions"
       ],
       techStack: [
-        "Spring Boot", "React", "Microfrontends", "Microservices", "Keycloak",
-        "Kafka", "S3", "JUnit", "Mockito", "TDD", "OpenShift", "Kubernetes", "Docker"
+        "Java 17", "Spring Boot", "React", "Microfrontends", "Microservices", "Axon Framework",
+        "Kafka", "Bruno Framework", "SonarQube", "TDD/BDD", "OpenShift", "Kubernetes", "Docker",
+        "TMF Open APIs", "CQRS", "Event Sourcing"
       ],
       image: "/logo/sofrecom-logo.png",
       experienceImage: "/work/Disco.jpeg",
