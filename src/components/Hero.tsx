@@ -1,7 +1,7 @@
 import React from 'react';
 import { Download, Mail, MapPin, Github, Linkedin } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
-import CVFile from '../../public/CV-Mohamed-Amine - Macherki.pdf';
+import CVFile from '../../public/CV-Mohamed Amine MACHERKI.pdf';
 
 interface HeroProps {
   darkMode: boolean;
