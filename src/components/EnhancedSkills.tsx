@@ -56,13 +56,13 @@ export const EnhancedSkills: React.FC<SkillsProps> = ({ darkMode = false }) => {
     {
       language: 'French',
       level: 'Full Professional Proficiency',
-      proficiency: 90,
+      proficiency: 80,
       flag: '🇫🇷',
       description: 'Excellent written and verbal communication skills in business and technical contexts',
     },
     {
       language: 'English',
-      level: 'Full Professional Proficiency',
+      level: 'C1',
       proficiency: 90,
       flag: '🇺🇸',
       description: 'Fluent in technical documentation, presentations, and international collaboration',
@@ -71,10 +71,12 @@ export const EnhancedSkills: React.FC<SkillsProps> = ({ darkMode = false }) => {
     },
     {
       language: 'German',
-      level: 'Professional Working Proficiency',
-      proficiency: 55,
+      level: 'B2',
+      proficiency: 75,
       flag: '🇩🇪',
       description: 'Solid understanding for professional communication and technical discussions',
+      certification: 'TELC B2 Certificate',
+      certificateUrl: '/TELC B2 Zertifikat Mohamed_Amine_Macherki.pdf'
     }
   ], []);
 
